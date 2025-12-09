@@ -1,3 +1,4 @@
+```python
 from openpyxl import load_workbook
 import time
 from openpyxl.utils.cell import (
@@ -207,3 +208,5 @@ if __name__ == "__main__":
     print("检测到的所有区域：")
     for r in rs:
         print(r)
+
+```
